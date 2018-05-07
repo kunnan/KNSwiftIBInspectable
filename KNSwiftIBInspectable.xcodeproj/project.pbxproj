@@ -12,6 +12,8 @@
 		E1C2F7AA20A04A7D007CE961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7A820A04A7D007CE961 /* Main.storyboard */; };
 		E1C2F7AC20A04A7D007CE961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7AB20A04A7D007CE961 /* Assets.xcassets */; };
 		E1C2F7AF20A04A7D007CE961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7AD20A04A7D007CE961 /* LaunchScreen.storyboard */; };
+		E1C2F7B920A04D82007CE961 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7B820A04D82007CE961 /* UIViewExt.swift */; };
+		E1C2F7BB20A05019007CE961 /* KNIBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7BA20A05019007CE961 /* KNIBDesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E1C2F7AB20A04A7D007CE961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C2F7AE20A04A7D007CE961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C2F7B020A04A7D007CE961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C2F7B820A04D82007CE961 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		E1C2F7BA20A05019007CE961 /* KNIBDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNIBDesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				E1C2F7A420A04A7D007CE961 /* AppDelegate.swift */,
 				E1C2F7A620A04A7D007CE961 /* ViewController.swift */,
+				E1C2F7BC20A05104007CE961 /* IBInspectable */,
 				E1C2F7A820A04A7D007CE961 /* Main.storyboard */,
 				E1C2F7AB20A04A7D007CE961 /* Assets.xcassets */,
 				E1C2F7AD20A04A7D007CE961 /* LaunchScreen.storyboard */,
 				E1C2F7B020A04A7D007CE961 /* Info.plist */,
 			);
 			path = KNSwiftIBInspectable;
+			sourceTree = "<group>";
+		};
+		E1C2F7BC20A05104007CE961 /* IBInspectable */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2F7B820A04D82007CE961 /* UIViewExt.swift */,
+				E1C2F7BA20A05019007CE961 /* KNIBDesignableView.swift */,
+			);
+			path = IBInspectable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2F7BB20A05019007CE961 /* KNIBDesignableView.swift in Sources */,
+				E1C2F7B920A04D82007CE961 /* UIViewExt.swift in Sources */,
 				E1C2F7A720A04A7D007CE961 /* ViewController.swift in Sources */,
 				E1C2F7A520A04A7D007CE961 /* AppDelegate.swift in Sources */,
 			);
